@@ -43,6 +43,9 @@ function App() {
           image_container_top={83}
         />
       </div>
+      <div id='about' className='about'>
+        <HeaddingText href='#about' headding='About' color='#fff' />
+      </div>
     </div>
   )
 }

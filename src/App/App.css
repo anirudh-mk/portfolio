@@ -57,3 +57,11 @@
   margin: auto;
   position: relative;
 }
+.about{
+  width: 1192px;
+  height: 436px;
+  flex-shrink: 0;
+  background: #6E6F64;
+  margin: auto;
+  position: relative;
+}
