@@ -64,6 +64,7 @@ function App() {
             <i>-I'm eager to collaborate and discuss tech innovations.</i> 
           </p>
         </div>
+        <BottomDecorator/>
       </div>
     </div>
   )
