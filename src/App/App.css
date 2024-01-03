@@ -51,3 +51,9 @@
   position: relative;
   background-color: #6E6F64;
 }
+.home-details-container{
+  height: 571px;
+  width: 1192px;
+  margin: auto;
+  position: relative;
+}
