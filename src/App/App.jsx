@@ -54,6 +54,16 @@ function App() {
           image_background_top={140}
           image_container_top={120}
         />
+        <div className='about-text'>
+          <p>
+            Hey, I'm Anirudh MK, a backend web developer at G-tech Mulearn, 
+            immersed in Django and Python. Pursuing a degree in Electronics and Communication Engineering, 
+            I'm passionate about app and web development, as well as robotics. Let's connect
+            <br/>
+            <br/>
+            <i>-I'm eager to collaborate and discuss tech innovations.</i> 
+          </p>
+        </div>
       </div>
     </div>
   )
