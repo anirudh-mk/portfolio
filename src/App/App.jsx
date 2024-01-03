@@ -10,6 +10,9 @@ import NavigationButton from '../Components/NavigationButton/NavigationButton';
 
 import ProfileImage from '../Components/ProfileImage/ProfileImage';
 
+import TopDecorator from '../Components/TopDecorator/TopDecorator';
+import BottomDecorator from '../Components/BottomDecorator/BottomDecorator';
+
 import  AnirudhImage from '../assets/anirudh.png'
 import AnirudhAboutImage from '../assets/anirudh_about.png'
 
@@ -65,6 +68,7 @@ function App() {
           </p>
         </div>
         <BottomDecorator/>
+        <TopDecorator/>
       </div>
     </div>
   )
