@@ -45,6 +45,15 @@ function App() {
       </div>
       <div id='about' className='about'>
         <HeaddingText href='#about' headding='About' color='#fff' />
+        <ProfileImage 
+          image={AnirudhAboutImage}
+          width={117.977}
+          height={138.227}
+          border_radius={69}
+          left={171}
+          image_background_top={140}
+          image_container_top={120}
+        />
       </div>
     </div>
   )
