@@ -10,8 +10,12 @@ import NavigationButton from '../Components/NavigationButton/NavigationButton';
 
 import ProfileImage from '../Components/ProfileImage/ProfileImage';
 
+import  AnirudhImage from '../assets/anirudh.png'
+import AnirudhAboutImage from '../assets/anirudh_about.png'
+
 import { faGithubAlt, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons'; 
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
 function App() {
   return (
     <div className='home'>
