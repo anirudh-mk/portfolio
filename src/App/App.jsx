@@ -16,6 +16,8 @@ import BottomDecorator from '../Components/BottomDecorator/BottomDecorator';
 import  AnirudhImage from '../assets/anirudh.png'
 import AnirudhAboutImage from '../assets/anirudh_about.png'
 
+import ProjectScreen from '../Screen/ProjectScreen/ProjectScreen';
+
 import { faGithubAlt, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons'; 
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
@@ -70,6 +72,7 @@ function App() {
         <BottomDecorator/>
         <TopDecorator/>
       </div>
+      <ProjectScreen href='#project' id='project' username='anirudh-mk' token=''/>
     </div>
   )
 }
