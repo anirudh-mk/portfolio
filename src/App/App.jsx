@@ -75,6 +75,7 @@ function App() {
       <ProjectScreen href='#project' id='project' username='anirudh-mk' token={import.meta.env.VITE_GITHUB}/>
       <div id='contact' className='contact'>
         <HeaddingText href='#contact' headding='Contact' color='#fff'/>
+        <TextButton button_text='Download CV' link='https://drive.google.com/uc?export=download&id=1-4GLCPY6f3s-t-zt0tmb95Kg-2hHJ0B3' text_button_color='#fff' font_color='#000' top={227} left={421}/>
       </div>
     </div>
   )
