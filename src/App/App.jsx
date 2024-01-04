@@ -81,6 +81,7 @@ function App() {
         <IconButton icon={faLinkedinIn} link='https://www.linkedin.com/in/anirudh-mk' icon_button_color='#fff' icon_color="#000" top={227} left={805}/>
         <IconButton icon={faTwitter} icon_button_color='#fff' icon_color="#000" top={227} left={886}/>
         <BottomDecorator/>
+        <TopDecorator/>
       </div>
     </div>
   )
