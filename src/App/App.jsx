@@ -76,6 +76,10 @@ function App() {
       <div id='contact' className='contact'>
         <HeaddingText href='#contact' headding='Contact' color='#fff'/>
         <TextButton button_text='Download CV' link='https://drive.google.com/uc?export=download&id=1-4GLCPY6f3s-t-zt0tmb95Kg-2hHJ0B3' text_button_color='#fff' font_color='#000' top={227} left={421}/>
+        <IconButton icon={faGithubAlt} link='https://github.com/anirudh-mk' icon_button_color='#fff' icon_color="#000" top={227} left={644}/>
+        <IconButton icon={faEnvelope} link='https://mail.google.com/mail/u/0/?fs=0&to=anirudhmk123@gmail.com&tf=cm' icon_button_color='#fff' icon_color="#000" top={227} left={724}/>
+        <IconButton icon={faLinkedinIn} link='https://www.linkedin.com/in/anirudh-mk' icon_button_color='#fff' icon_color="#000" top={227} left={805}/>
+        <IconButton icon={faTwitter} icon_button_color='#fff' icon_color="#000" top={227} left={886}/>
       </div>
     </div>
   )
