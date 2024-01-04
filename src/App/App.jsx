@@ -80,6 +80,7 @@ function App() {
         <IconButton icon={faEnvelope} link='https://mail.google.com/mail/u/0/?fs=0&to=anirudhmk123@gmail.com&tf=cm' icon_button_color='#fff' icon_color="#000" top={227} left={724}/>
         <IconButton icon={faLinkedinIn} link='https://www.linkedin.com/in/anirudh-mk' icon_button_color='#fff' icon_color="#000" top={227} left={805}/>
         <IconButton icon={faTwitter} icon_button_color='#fff' icon_color="#000" top={227} left={886}/>
+        <BottomDecorator/>
       </div>
     </div>
   )
