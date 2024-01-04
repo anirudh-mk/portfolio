@@ -74,6 +74,7 @@ function App() {
       </div>
       <ProjectScreen href='#project' id='project' username='anirudh-mk' token={import.meta.env.VITE_GITHUB}/>
       <div id='contact' className='contact'>
+        <HeaddingText href='#contact' headding='Contact' color='#fff'/>
       </div>
     </div>
   )
