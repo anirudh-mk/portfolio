@@ -23,30 +23,32 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   return (
-    <div className='home'>
-      <div className='home-headding-container'>
-        <HeaddingText href='#home' headding='Anirudh MK' color='#fff'/>
-        <NavigationButton href='#home' title='Home' width={115} top={33} left={588} background='rgba(255, 255, 255, 0.50)'/>
-        <NavigationButton href='#about' title='About' width={115} top={33} left={730}/>
-        <NavigationButton href='#project' title='Project' width={115} top={33} left={872}/>
-        <NavigationButton href='#contact' title='Contact Me' width={149} top={33} left={1014}/>
-      </div>
-      <div className='home-details-container'>
-        <DetailsText/>
-        <TextButton button_text='Download CV' link='https://drive.google.com/uc?export=download&id=1-4GLCPY6f3s-t-zt0tmb95Kg-2hHJ0B3' text_button_color='#6E6F64' font_color='#fff' top={442} left={114}/>
-        <IconButton icon={faGithubAlt} link='https://github.com/anirudh-mk' icon_button_color='#6E6F64' icon_color="#fff" top={442} left={310} />
-        <IconButton icon={faEnvelope} link='https://mail.google.com/mail/u/0/?fs=0&to=anirudhmk123@gmail.com&tf=cm' icon_button_color='#6E6F64' icon_color="#fff" top={442} left={380}/>
-        <IconButton icon={faLinkedinIn} link='https://www.linkedin.com/in/anirudh-mk' icon_button_color='#6E6F64' icon_color="#fff" top={442} left={451}/>
-        <IconButton icon={faTwitter} icon_button_color='#6E6F64' icon_color="#fff" top={442} left={523}/>
-        <ProfileImage 
-          image={AnirudhImage}
-          width={344}
-          height={403}
-          border_radius={172}
-          left={765}
-          image_background_top={142}
-          image_container_top={83}
-        />
+    <>
+      <div className='home'>
+        <div className='home-headding-container'>
+          <HeaddingText href='#home' headding='Anirudh MK' color='#fff'/>
+          <NavigationButton href='#home' title='Home' width={115} top={33} left={588} background='rgba(255, 255, 255, 0.50)'/>
+          <NavigationButton href='#about' title='About' width={115} top={33} left={730}/>
+          <NavigationButton href='#project' title='Project' width={115} top={33} left={872}/>
+          <NavigationButton href='#contact' title='Contact Me' width={149} top={33} left={1014}/>
+        </div>
+          <div className='home-details-container'>
+            <DetailsText/>
+            <TextButton button_text='Download CV' link='https://drive.google.com/uc?export=download&id=1-4GLCPY6f3s-t-zt0tmb95Kg-2hHJ0B3' text_button_color='#6E6F64' font_color='#fff' top={442} left={114}/>
+            <IconButton icon={faGithubAlt} link='https://github.com/anirudh-mk' icon_button_color='#6E6F64' icon_color="#fff" top={442} left={310} />
+            <IconButton icon={faEnvelope} link='https://mail.google.com/mail/u/0/?fs=0&to=anirudhmk123@gmail.com&tf=cm' icon_button_color='#6E6F64' icon_color="#fff" top={442} left={380}/>
+            <IconButton icon={faLinkedinIn} link='https://www.linkedin.com/in/anirudh-mk' icon_button_color='#6E6F64' icon_color="#fff" top={442} left={451}/>
+            <IconButton icon={faTwitter} icon_button_color='#6E6F64' icon_color="#fff" top={442} left={523}/>
+            <ProfileImage 
+              image={AnirudhImage}
+              width={344}
+              height={403}
+              border_radius={172}
+              left={765}
+              image_background_top={142}
+              image_container_top={83}
+          />
+        </div>
       </div>
       <div id='about' className='about'>
         <HeaddingText href='#about' headding='About' color='#fff' />
@@ -83,7 +85,7 @@ function App() {
         <BottomDecorator/>
         <TopDecorator/>
       </div>
-    </div>
+    </>
   )
 }
 
