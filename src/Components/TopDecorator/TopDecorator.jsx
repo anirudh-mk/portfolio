@@ -3,11 +3,11 @@ import './TopDecorator.css'
 function TopDecorator() {
   return (
     <div className='top-decorator-layout'>
-        <div class="box-one"></div>
-        <div class="box-two"></div>
-        <div class="box-three"></div>
-        <div class="box-four"></div>
-        <div class="circle"></div>
+        <div className="box-one"></div>
+        <div className="box-two"></div>
+        <div className="box-three"></div>
+        <div className="box-four"></div>
+        <div className="circle"></div>
     </div>
   )
 }
