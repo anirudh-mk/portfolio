@@ -73,6 +73,8 @@ function App() {
         <TopDecorator/>
       </div>
       <ProjectScreen href='#project' id='project' username='anirudh-mk' token={import.meta.env.VITE_GITHUB}/>
+      <div id='contact' className='contact'>
+      </div>
     </div>
   )
 }
