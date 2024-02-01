@@ -112,39 +112,34 @@ function App() {
             image_container_top={83}
           />
         </div>
-      </div>
-      <div id="about" className="about">
-        <HeaddingText href="#about" headding="About" color="#fff" />
-        <ProfileImage
-          image={AnirudhAboutImage}
-          width={117.977}
-          height={138.227}
-          border_radius={69}
-          left={171}
-          image_background_top={140}
-          image_container_top={120}
-        />
-        <div className="about-text">
-          <p>
-            Hey, I'm Anirudh MK, a backend web developer at G-tech Mulearn,
-            immersed in Django and Python. Pursuing a degree in Electronics and
-            Communication Engineering, I'm passionate about app and web
-            development, as well as robotics. Let's connect
-            <br />
-            <br />
-            <i>-I'm eager to collaborate and discuss tech innovations.</i>
-          </p>
+      </div> */}
+      <div id="about" className="about flex w-screen md:w-[1192px] h-[436px]">
+        <HeaddingText className="" href="#about" headding="About" />
+        <div className="flex justify-center grid grid-cols-1 lg:grid-cols-[118px_690px] pt-[150px] gap-[40px]">
+          <div className="flex justify-center">
+            <img className="w-[117px] h-[117px]"></img>
+          </div>
+          <div className="flex justify-center">
+            <p className="flex flex-col">
+              Hey, I'm Anirudh MK, a backend web developer at G-tech Mulearn,
+              immersed in Django and Python. Pursuing a degree in Electronics
+              and Communication Engineering, I'm passionate about app and web
+              development, as well as robotics. Let's connect
+              <br />
+              <br />
+              <i>-I'm eager to collaborate and discuss tech innovations.</i>
+            </p>
+          </div>
         </div>
-        <BottomDecorator />
-        <TopDecorator />
       </div>
-      <ProjectScreen
+      <br />
+      {/* <ProjectScreen
         id="project"
         href="#project"
         username="anirudh-mk"
         token={import.meta.env.VITE_GITHUB}
       /> */}
-      <div className="flex flex-col w-scereen lg:w-[1192px] h-[436px] contact">
+      <div className="flex flex-col w-scereen md:w-[1192px] h-[436px] contact">
         <HeaddingText href="#contact" headding="Contact" />
         <div className="flex justify-center grid grid-cols-1 md:grid-cols-[165px_280px] pt-[125px] md:pt-[200px] lg:pt-[200px] gap-[40px]">
           <div className="flex justify-center">
