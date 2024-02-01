@@ -1,12 +1,11 @@
-.icon-button{
-    text-align: center;
+.icon-button {
     width: 39px;
     height: 40px;
-    flex-shrink: 0;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
-    position: absolute;
 }
-.icon-button:hover{
+
+.icon-button:hover {
     cursor: pointer;
+    transform: scale(1.1);
 }
