@@ -1,13 +1,13 @@
-.top-decorator-layout{
+.top-decorator-layout {
     width: 176.966px;
     height: 252.682px;
     flex-shrink: 0;
-    position: absolute;
-    top: 105px;
+    /* top: 105px; */
     right: 0px;
     overflow: hidden;
 }
-.top-decorator-layout .box-one{
+
+.top-decorator-layout .box-one {
     width: 236.322px;
     height: 23.772px;
     transform: rotate(-45deg);
@@ -19,7 +19,8 @@
     right: -68px;
     top: 57px;
 }
-.top-decorator-layout .box-two{
+
+.top-decorator-layout .box-two {
     width: 136.091px;
     height: 23.772px;
     transform: rotate(-45deg);
@@ -31,7 +32,8 @@
     right: -101px;
     top: 33px;
 }
-.top-decorator-layout .box-three{
+
+.top-decorator-layout .box-three {
     width: 128.42px;
     height: 23.772px;
     transform: rotate(-45deg);
@@ -43,7 +45,8 @@
     right: -54px;
     top: 137.8px;
 }
-.top-decorator-layout .box-four{
+
+.top-decorator-layout .box-four {
     width: 136.091px;
     height: 23.772px;
     transform: rotate(-45deg);
@@ -55,7 +58,8 @@
     right: 48px;
     top: 182px;
 }
-.top-decorator-layout .circle{
+
+.top-decorator-layout .circle {
     width: 28px;
     height: 28px;
     flex-shrink: 0;
