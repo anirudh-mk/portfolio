@@ -146,7 +146,7 @@ function App() {
       /> */}
       <div className="flex flex-col w-scereen lg:w-[1192px] h-[436px] contact">
         <HeaddingText href="#contact" headding="Contact" />
-        <div className="flex justify-center grid grid-cols-1 md:grid-cols-[165px_280px] pt-[100px] lg:pt-[200px] gap-[40px]">
+        <div className="flex justify-center grid grid-cols-1 md:grid-cols-[165px_280px] pt-[125px] md:pt-[200px] lg:pt-[200px] gap-[40px]">
           <div className="flex justify-center">
             <TextButton
               className=""
@@ -159,26 +159,19 @@ function App() {
             <IconButton
               icon={faGithubAlt}
               link="https://github.com/anirudh-mk"
-              icon_button_color="#fff"
               icon_color="#000"
             />
             <IconButton
               icon={faEnvelope}
               link="https://mail.google.com/mail/u/0/?fs=0&to=anirudhmk123@gmail.com&tf=cm"
-              icon_button_color="#fff"
               icon_color="#000"
             />
             <IconButton
               icon={faLinkedinIn}
               link="https://www.linkedin.com/in/anirudh-mk"
-              icon_button_color="#fff"
               icon_color="#000"
             />
-            <IconButton
-              icon={faTwitter}
-              icon_button_color="#fff"
-              icon_color="#000"
-            />
+            <IconButton icon={faTwitter} icon_color="#000" />
           </div>
         </div>
       </div>
