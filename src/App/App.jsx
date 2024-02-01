@@ -28,7 +28,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 function App() {
   return (
     <>
-      <div className="home">
+      {/* <div className="home">
         <div className="home-headding-container">
           <HeaddingText href="#home" headding="Anirudh MK" color="#fff" />
           <NavigationButton
@@ -143,50 +143,44 @@ function App() {
         href="#project"
         username="anirudh-mk"
         token={import.meta.env.VITE_GITHUB}
-      />
-      <div id="contact" className="contact">
-        <HeaddingText href="#contact" headding="Contact" color="#fff" />
-        <TextButton
-          button_text="Download CV"
-          link="https://drive.google.com/uc?export=download&id=1-4GLCPY6f3s-t-zt0tmb95Kg-2hHJ0B3"
-          text_button_color="#fff"
-          font_color="#000"
-          top={227}
-          left={421}
-        />
-        <IconButton
-          icon={faGithubAlt}
-          link="https://github.com/anirudh-mk"
-          icon_button_color="#fff"
-          icon_color="#000"
-          top={227}
-          left={644}
-        />
-        <IconButton
-          icon={faEnvelope}
-          link="https://mail.google.com/mail/u/0/?fs=0&to=anirudhmk123@gmail.com&tf=cm"
-          icon_button_color="#fff"
-          icon_color="#000"
-          top={227}
-          left={724}
-        />
-        <IconButton
-          icon={faLinkedinIn}
-          link="https://www.linkedin.com/in/anirudh-mk"
-          icon_button_color="#fff"
-          icon_color="#000"
-          top={227}
-          left={805}
-        />
-        <IconButton
-          icon={faTwitter}
-          icon_button_color="#fff"
-          icon_color="#000"
-          top={227}
-          left={886}
-        />
-        <BottomDecorator />
-        <TopDecorator />
+      /> */}
+      <div className="flex flex-col w-scereen lg:w-[1192px] h-[436px] contact">
+        <HeaddingText href="#contact" headding="Contact" />
+        <div className="flex justify-center grid grid-cols-1 md:grid-cols-[165px_280px] pt-[100px] lg:pt-[200px] gap-[40px]">
+          <div className="flex justify-center">
+            <TextButton
+              className=""
+              button_text="Download CV"
+              link="https://drive.google.com/uc?export=download&id=1-4GLCPY6f3s-t-zt0tmb95Kg-2hHJ0B3"
+              font_color="#000"
+            />
+          </div>
+          <div className="flex justify-center grid-cols-subgrid gap-[40px]">
+            <IconButton
+              icon={faGithubAlt}
+              link="https://github.com/anirudh-mk"
+              icon_button_color="#fff"
+              icon_color="#000"
+            />
+            <IconButton
+              icon={faEnvelope}
+              link="https://mail.google.com/mail/u/0/?fs=0&to=anirudhmk123@gmail.com&tf=cm"
+              icon_button_color="#fff"
+              icon_color="#000"
+            />
+            <IconButton
+              icon={faLinkedinIn}
+              link="https://www.linkedin.com/in/anirudh-mk"
+              icon_button_color="#fff"
+              icon_color="#000"
+            />
+            <IconButton
+              icon={faTwitter}
+              icon_button_color="#fff"
+              icon_color="#000"
+            />
+          </div>
+        </div>
       </div>
     </>
   );
