@@ -66,8 +66,14 @@ function App() {
       </div>
       <div className="flex  w-screen lg:w-[1192px] grid grid-cols-1 lg:grid-cols-[649px_344px] home-details-container pt-[80px] pb-[80px] gap-[40px]">
         <div className="flex flex-col items-center">
-          <div className="flex lg:hidden">
-            <img src="" alt="" className="w-[344px] h-[403px]" />
+          <div className="flex pb-[40px] lg:hidden ">
+            <ProfileImage
+              className="hidden lg:flex"
+              image={AnirudhImage}
+              width={300}
+              height={351}
+              border_radius={172}
+            />
           </div>
           <DetailsText />
           <div className="flex justify-left grid grid-cols-1 md:grid-cols-[165px_220px] pt-[20px] pb-[20px] gap-[20px] ">
@@ -98,18 +104,15 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="hidden lg:flex">
-          <img src="" alt="" className="w-[344px] h-[403px]" />
+        <div className="hidden lg:flex pb-[80px]">
+          <ProfileImage
+            className="hidden lg:flex"
+            image={AnirudhImage}
+            width={344}
+            height={403}
+            border_radius={172}
+          />
         </div>
-        {/* <ProfileImage
-          image={AnirudhImage}
-          width={344}
-          height={403}
-          border_radius={172}
-          left={765}
-          image_background_top={142}
-          image_container_top={83}
-        /> */}
       </div>
       <div id="about" className="flex flex-col w-screen lg:w-[1192px] about">
         <HeaddingText className="" href="#about" headding="About" />
