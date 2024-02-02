@@ -118,7 +118,13 @@ function App() {
         <HeaddingText className="" href="#about" headding="About" />
         <div className="flex justify-center grid grid-cols-1 md:grid-cols-[118px_500px] lg:grid-cols-[118px_690px] pt-[80px] gap-[40px]">
           <div className="flex justify-center">
-            <img className="w-[117px] h-[117px]"></img>
+            <ProfileImage
+              className="hidden lg:flex"
+              image={AnirudhImage}
+              width={117}
+              height={138}
+              border_radius={58}
+            />
           </div>
           <div className="flex pl-[40px] pr-[40px] pb-[100px]">
             <p className="flex flex-col text-center md:text-left ">
@@ -142,7 +148,7 @@ function App() {
       /> */}
       <div className="flex flex-col w-scereen lg:w-[1192px] contact">
         <HeaddingText href="#contact" headding="Contact" />
-        <div className="flex justify-center grid grid-cols-1 md:grid-cols-[165px_280px] pt-[150px] pb-[150px] gap-[40px]">
+        <div className="flex justify-center grid grid-cols-1 md:grid-cols-[165px_280px] pt-[150px] pb-[50px] gap-[40px]">
           <div className="flex justify-center">
             <TextButton
               className=""
@@ -170,6 +176,7 @@ function App() {
             <IconButton icon={faTwitter} icon_color="#000" />
           </div>
         </div>
+        <h1 className="text-center pb-[100px] copywrite">&copy; Anirudh MK</h1>
       </div>
     </>
   );

@@ -38,3 +38,12 @@
   background: #6E6F64;
   margin: auto;
 }
+
+.contact .copywrite {
+  color: #FFF;
+  font-family: Poppins, Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.8rem;
+}
