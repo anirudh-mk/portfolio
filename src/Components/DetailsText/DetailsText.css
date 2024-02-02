@@ -1,11 +1,7 @@
-.details-text {
-    flex-shrink: 0;
-}
-
-.details-text h1 {
-    color: #1A2322;
-    text-shadow: 3px 5px 5.7px rgba(0, 0, 0, 0.25);
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 700;
-}
+    .details-text h1 {
+        color: #1A2322;
+        text-shadow: 3px 5px 5.7px rgba(0, 0, 0, 0.25);
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+    }
