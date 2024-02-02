@@ -1,16 +1,17 @@
-.navigation-button{
+.navigation-button {
+    display: flex;
     height: 34px;
-    flex-shrink: 0;
-    border: 3px solid #FFF;
+    border: 2px solid #FFF;
     border-radius: 50px;
-    text-align: center;
-    padding-top: 14px;
-    position: absolute;
+    align-items: center;
+    justify-content: center;
 }
+
 .navigation-button:hover {
     transform: scale(1.1);
-  }
-.navigation-button p{
+}
+
+.navigation-button p {
     color: #FFF;
     font-family: Montserrat;
     font-size: 15px;
@@ -19,6 +20,7 @@
     line-height: normal;
     margin: 0px;
 }
-.navigation-button :hover{
+
+.navigation-button :hover {
     cursor: pointer;
 }
