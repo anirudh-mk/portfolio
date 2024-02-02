@@ -66,6 +66,9 @@ function App() {
       </div>
       <div className="flex  w-screen lg:w-[1192px] grid grid-cols-1 lg:grid-cols-[649px_344px] home-details-container pt-[80px] pb-[80px] gap-[40px]">
         <div className="flex flex-col items-center">
+          <div className="flex lg:hidden">
+            <img src="" alt="" className="w-[344px] h-[403px]" />
+          </div>
           <DetailsText />
           <div className="flex justify-left grid grid-cols-1 md:grid-cols-[165px_220px] pt-[20px] pb-[20px] gap-[20px] ">
             <div className="flex justify-center">
@@ -95,7 +98,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="flex">
+        <div className="hidden lg:flex">
           <img src="" alt="" className="w-[344px] h-[403px]" />
         </div>
         {/* <ProfileImage
