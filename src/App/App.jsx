@@ -113,14 +113,14 @@ function App() {
           />
         </div>
       </div> */}
-      <div id="about" className="about flex w-screen md:w-[1192px] h-[436px]">
+      <div id="about" className="flex flex-col w-screen lg:w-[1192px] about">
         <HeaddingText className="" href="#about" headding="About" />
-        <div className="flex justify-center grid grid-cols-1 lg:grid-cols-[118px_690px] pt-[150px] gap-[40px]">
+        <div className="flex justify-center grid grid-cols-1 md:grid-cols-[118px_500px] lg:grid-cols-[118px_690px] pt-[100px] gap-[40px]">
           <div className="flex justify-center">
             <img className="w-[117px] h-[117px]"></img>
           </div>
-          <div className="flex justify-center">
-            <p className="flex flex-col">
+          <div className="flex pl-[40px] pr-[40px] pb-[100px]">
+            <p className="flex flex-col text-center md:text-left ">
               Hey, I'm Anirudh MK, a backend web developer at G-tech Mulearn,
               immersed in Django and Python. Pursuing a degree in Electronics
               and Communication Engineering, I'm passionate about app and web
@@ -139,9 +139,9 @@ function App() {
         username="anirudh-mk"
         token={import.meta.env.VITE_GITHUB}
       /> */}
-      <div className="flex flex-col w-scereen md:w-[1192px] h-[436px] contact">
+      <div className="flex flex-col w-scereen lg:w-[1192px] contact">
         <HeaddingText href="#contact" headding="Contact" />
-        <div className="flex justify-center grid grid-cols-1 md:grid-cols-[165px_280px] pt-[125px] md:pt-[200px] lg:pt-[200px] gap-[40px]">
+        <div className="flex justify-center grid grid-cols-1 md:grid-cols-[165px_280px] pt-[150px] pb-[150px] gap-[40px]">
           <div className="flex justify-center">
             <TextButton
               className=""
