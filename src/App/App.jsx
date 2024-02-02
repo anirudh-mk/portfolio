@@ -28,94 +28,89 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 function App() {
   return (
     <>
-      {/* <div className="home">
-        <div className="home-headding-container">
+      <div className="home">
+        <div className="flex w-screen lg:w-[1192px] mt-0 md:mt-[46px] pl-[28px] home-headding-container">
           <HeaddingText href="#home" headding="Anirudh MK" color="#fff" />
-          <NavigationButton
-            href="#home"
-            title="Home"
-            width={115}
-            top={33}
-            left={588}
-            background="rgba(255, 255, 255, 0.50)"
-          />
-          <NavigationButton
-            href="#about"
-            title="About"
-            width={115}
-            top={33}
-            left={730}
-          />
-          <NavigationButton
-            href="#project"
-            title="Project"
-            width={115}
-            top={33}
-            left={872}
-          />
-          <NavigationButton
-            href="#contact"
-            title="Contact Me"
-            width={149}
-            top={33}
-            left={1014}
-          />
+          {/* <div className="flex pt-[20px] pl-[300px]">
+            <NavigationButton
+              href="#home"
+              title="Home"
+              width={115}
+              top={33}
+              left={588}
+              background="rgba(255, 255, 255, 0.50)"
+            />
+            <NavigationButton
+              href="#about"
+              title="About"
+              width={115}
+              top={33}
+              left={730}
+            />
+            <NavigationButton
+              href="#project"
+              title="Project"
+              width={115}
+              top={33}
+              left={872}
+            />
+            <NavigationButton
+              href="#contact"
+              title="Contact Me"
+              width={149}
+              top={33}
+              left={1014}
+            />
+          </div> */}
         </div>
-        <div className="home-details-container">
+      </div>
+      <div className="flex  w-screen lg:w-[1192px] grid grid-cols-1 lg:grid-cols-[649px_344px] home-details-container pt-[80px] pb-[80px] gap-[40px]">
+        <div className="flex flex-col items-center">
           <DetailsText />
-          <TextButton
-            button_text="Download CV"
-            link="https://drive.google.com/uc?export=download&id=1-4GLCPY6f3s-t-zt0tmb95Kg-2hHJ0B3"
-            text_button_color="#6E6F64"
-            font_color="#fff"
-            top={442}
-            left={114}
-          />
-          <IconButton
-            icon={faGithubAlt}
-            link="https://github.com/anirudh-mk"
-            icon_button_color="#6E6F64"
-            icon_color="#fff"
-            top={442}
-            left={310}
-          />
-          <IconButton
-            icon={faEnvelope}
-            link="https://mail.google.com/mail/u/0/?fs=0&to=anirudhmk123@gmail.com&tf=cm"
-            icon_button_color="#6E6F64"
-            icon_color="#fff"
-            top={442}
-            left={380}
-          />
-          <IconButton
-            icon={faLinkedinIn}
-            link="https://www.linkedin.com/in/anirudh-mk"
-            icon_button_color="#6E6F64"
-            icon_color="#fff"
-            top={442}
-            left={451}
-          />
-          <IconButton
-            icon={faTwitter}
-            icon_button_color="#6E6F64"
-            icon_color="#fff"
-            top={442}
-            left={523}
-          />
-          <ProfileImage
-            image={AnirudhImage}
-            width={344}
-            height={403}
-            border_radius={172}
-            left={765}
-            image_background_top={142}
-            image_container_top={83}
-          />
+          <div className="flex justify-left grid grid-cols-1 md:grid-cols-[165px_220px] pt-[20px] pb-[20px] gap-[20px] ">
+            <div className="flex justify-center">
+              <TextButton
+                button_text="Download CV"
+                link="https://drive.google.com/uc?export=download&id=1-4GLCPY6f3s-t-zt0tmb95Kg-2hHJ0B3"
+                text_button_color="#6E6F64"
+              />
+            </div>
+            <div className="flex justify-center grid-cols-subgrid gap-[20px]">
+              <IconButton
+                icon={faGithubAlt}
+                link="https://github.com/anirudh-mk"
+                icon_button_color="#6E6F64"
+              />
+              <IconButton
+                icon={faEnvelope}
+                link="https://mail.google.com/mail/u/0/?fs=0&to=anirudhmk123@gmail.com&tf=cm"
+                icon_button_color="#6E6F64"
+              />
+              <IconButton
+                icon={faLinkedinIn}
+                link="https://www.linkedin.com/in/anirudh-mk"
+                icon_button_color="#6E6F64"
+              />
+              <IconButton icon={faTwitter} icon_button_color="#6E6F64" />
+            </div>
+          </div>
         </div>
-      </div> */}
+        <div className="flex">
+          <img src="" alt="" className="w-[344px] h-[403px]" />
+        </div>
+        {/* <ProfileImage
+          image={AnirudhImage}
+          width={344}
+          height={403}
+          border_radius={172}
+          left={765}
+          image_background_top={142}
+          image_container_top={83}
+        /> */}
+      </div>
       <div id="about" className="flex flex-col w-screen lg:w-[1192px] about">
         <HeaddingText className="" href="#about" headding="About" />
-        <div className="flex justify-center grid grid-cols-1 md:grid-cols-[118px_500px] lg:grid-cols-[118px_690px] pt-[100px] gap-[40px]">
+        <div className="flex justify-center grid grid-cols-1 md:grid-cols-[118px_500px] lg:grid-cols-[118px_690px] pt-[80px] gap-[40px]">
           <div className="flex justify-center">
             <img className="w-[117px] h-[117px]"></img>
           </div>
