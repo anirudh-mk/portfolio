@@ -1,8 +1,8 @@
-.home-headding-container {
-  flex-shrink: 0;
+.navbar {
   background-image: url('../assets/images/mountain.png');
   margin: auto;
   background-color: #6E6F64;
+
 }
 
 .home-details-container {
